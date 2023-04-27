@@ -36,7 +36,7 @@ async function autoReply() {
         const senderName = fromHeader ? fromHeader.value.match(/(.*) <.*@.*>/)[1] : fromHeader.value;
 
         const body =
-          `Hi ${senderName},\n\nThank you for your email. I'm currently out of office and will not be able to respond until 28 April. If your matter is urgent, please contact soniprince142@gmail.com.\n\nBest regards,\nPrince Soni`;
+          `Hi ${senderName},\n\n thanks you for your mail currently i am not in my workplace for 2 week if any important work please contanct , jainjaydeep.jj@gmail.com\n\nBest regards by jaydeep jain`;
 
         const encodedBody = Buffer.from(body)
           .toString('base64')
